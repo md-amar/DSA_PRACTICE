@@ -1,5 +1,8 @@
-there are 4 approches in this pattern:
-1) 2 ptr approach
-2) window_sum
-3) prefix sum
-3) kandels algorithm
+SLIDING WINDOW PATTERN PROBLEM
+QUETION:-You are given an integer array nums consisting of n elements, and an integer k.
+
+Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.
+
+ **python solution** window_sum.py
+ **C solution** window_sum.c
+ 
