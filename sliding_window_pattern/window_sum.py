@@ -1,5 +1,5 @@
 class Solution:
-    def findMaxAverage(self, nums: List[int], k: int) -> float:
+    def findMaxAverage(self, nums: list[int], k: int) -> float:
         n=len(nums)
         window_avg=sum(nums[:k])
         max_avg=window_avg
@@ -8,3 +8,4 @@ class Solution:
             if window_avg>max_avg:
                 max_avg=window_avg
         return max_avg/k  
+    
